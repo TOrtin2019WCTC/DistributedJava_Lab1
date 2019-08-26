@@ -112,3 +112,23 @@ div #form1{
     text-align: center;
 }
 
+header h1{
+    padding: 30px 100px;
+    font-family: "Trebuchet MS";
+
+}
+
+div #confirmation{
+    display: none;
+    color: white;
+    background-color: green;
+    width: 100%;
+    height: 120px;
+    font-size: 3em;
+
+}
+
+#confirmation p{
+    font-size: .5em;
+}
+
