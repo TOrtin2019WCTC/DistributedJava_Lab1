@@ -64,3 +64,13 @@ h1{
     font-family: helvetica;
 }
 
+.legend-info p{
+    color: white;
+    font-size: 3em;
+    font-family: Helvetica;
+}
+
+.legend-photo{
+    aligh: left;
+}
+
