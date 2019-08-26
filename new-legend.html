@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Apex Legends::Wraith</title>
+    <title>Apex Legends::Email-Sign up</title>
     <meta name="viewport"
           content="width=device-width,
         initial-scale=1.0">
@@ -25,19 +25,30 @@
             <p class="nav-item"><a href ="legends.html">Legends</a></p>
             <p class="nav-item"><a href ="new-legend.html">New Legend Notification</a></p>
         </ul>
-        </ul>
     </nav>
     <br>
-    <div class="legend-info">
-        <h1>Wraith</h1>
-        <div class="legend-photo"><img src="photos/Wraith2.jpeg" height="168" width="300" alt="photo of character Wraith"/>
-        </div>
-        <p class="Passive">Passive Ability: Voices from the Void</p>
-        <p class="Tactical">Tactical Ability: Into the Void</p>
-        <p class="ultimate">Ultimate Ability: Dimensional Rift</p>
-    </div>
+ <p>
+     Sign up for Email Notifications when new Legends become available!
+     <div id="form1">
+     <form id="newsletter" name="newsletter" method="post">
+    <p>
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName" size="25" placeholder="ex: Dexter" required>
+    </p>
+    <p>
+        <label for="lName">Last Name:</label>
+        <input type="text" name="lName" id="lName" size="25" placeholder="ex: Morgan" required>
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" size="25" placeholder="ex: sample@sample.com" required>
+    </p>
+<input type="submit" value="Submit">
+
+</form>
 </div>
+ </p>
 
-
+</div>
 </body>
 </html>
