@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f044b54-3c55-4f05-8730-ff0986b7a417" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apex-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/apex-script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-legend.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-legend.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       <updated>1566832404122</updated>
       <workItem from="1566832406563" duration="29000" />
       <workItem from="1566832530550" duration="141000" />
-      <workItem from="1566832938863" duration="16932000" />
+      <workItem from="1566832938863" duration="17621000" />
     </task>
     <servers />
   </component>
