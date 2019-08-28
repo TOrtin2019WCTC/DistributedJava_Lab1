@@ -69,6 +69,7 @@ label {
     width: 140px;
     text-align: right;
     margin-left: 0;
+    font-weight: bold;
 }
 
 .legend-info p{
@@ -96,13 +97,16 @@ label {
 }
 input[type=submit]{
     border: 3px solid black;
-    margin: 12px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 5px;
     background-color: slategray;
     font-weight: bold;
     font-size: .75em;
     cursor: pointer;
     width: auto;
     height: auto;
+    margin-left: 15px;
 
 }
 
@@ -114,6 +118,12 @@ div #form1{
     display: block;
     text-align: center;
 }
+
+div #form1 p{
+    margin-right: 40px;
+}
+
+
 
 header h1{
     padding: 30px 100px;
@@ -134,7 +144,9 @@ div #confirmation{
 input[type="text"]{
     border: 2px solid black;
     height: 25px;
+    text-align: center;
 }
+
 
 .error{
     color: red;
