@@ -49,16 +49,22 @@ body{
     background-color: royalblue;
 }
 
-header{
-    align: left;
+.nav-item a:hover{
+    color: white;
 }
+
+
 header h1{
     display: inline-block;
     color: white;
     background-color: black;
-    font-size: 4em;
-    font-family: Helvetica;
-    margin: 10px 10px 10px;
+    font-size: 5em;
+    font-family: "Times New Roman";
+    /*margin: 10px 10px 10px;*/
+    margin-top: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 0;
 }
 
 label {
@@ -74,7 +80,7 @@ label {
 
 .legend-info p{
     color: white;
-    font-size: 3em;
+    font-size: 2em;
     font-family: Helvetica;
 }
 
@@ -124,13 +130,6 @@ div #form1 p{
 }
 
 
-
-header h1{
-    padding: 30px 100px;
-    font-family: "Trebuchet MS";
-
-}
-
 div #confirmation{
     display: none;
     color: white;
@@ -147,8 +146,13 @@ input[type="text"]{
     text-align: center;
 }
 
+input[type=submit]:hover{
+    background-color:green;
+    color: white;
+}
 
-.error{
+
+.error {
     color: red;
     width: 225px;
     height: 25px;
@@ -156,6 +160,10 @@ input[type="text"]{
     background-color: lightgray;
     margin: 5px;
     text-align: center;
+}
+
+div #wraith img:hover ,#octane img:hover{
+    opacity: 0.3;
 }
 
 
